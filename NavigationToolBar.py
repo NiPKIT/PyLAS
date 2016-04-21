@@ -6,6 +6,7 @@ from matplotlib import lines
 from matplotlib.widgets import SpanSelector
 from scipy.signal import savgol_filter
 import numpy as np
+import csv
 
 class PointBrowser(object):
     def __init__(self,parent=None, toolbar=None):
